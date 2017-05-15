@@ -1,12 +1,11 @@
 package com.cly.minevideoapplication;
 
-import android.app.Application;
+import android.support.v4.app.Fragment;
 
 /**
  * Created by Angel on 2017/5/15.
  */
 
-public class BaseApplication extends Application {
-
+public class BaseFragment extends Fragment{
 
 }
