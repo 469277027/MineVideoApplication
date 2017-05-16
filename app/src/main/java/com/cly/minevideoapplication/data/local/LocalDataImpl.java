@@ -4,9 +4,14 @@ import android.content.Context;
 
 import com.cly.minevideoapplication.data.DataSource;
 import com.cly.minevideoapplication.data.bean.AVBean;
+import com.cly.minevideoapplication.internet.HttpResult;
+
+import java.util.List;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
+
+import io.reactivex.Observable;
 
 /**
  * Created by Angel on 2017/5/15.
@@ -21,8 +26,9 @@ public class LocalDataImpl implements DataSource {
         this.context = context;
     }
 
+
     @Override
-    public AVBean getAVBeanList(String page) {
+    public Observable<HttpResult<List<AVBean>>> getAVBeanList(String page) {
         return null;
     }
 }

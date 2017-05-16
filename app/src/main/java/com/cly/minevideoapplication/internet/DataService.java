@@ -2,6 +2,10 @@ package com.cly.minevideoapplication.internet;
 
 import com.cly.minevideoapplication.data.bean.AVBean;
 
+
+import java.util.List;
+
+import io.reactivex.Observable;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
 
@@ -11,6 +15,10 @@ import retrofit2.http.Query;
 
 public interface DataService {
 
-    @GET("/first")
-    AVBean getAVList(@Query("page") String page);
+    @GET("first")
+    Observable<HttpResult<List<AVBean>>> getAVList(@Query("page") String page);
+
+
+
+
 }

@@ -1,4 +1,4 @@
-package com.cly.minevideoapplication.ui.list;
+package com.cly.minevideoapplication.ui.videolist;
 
 import com.cly.minevideoapplication.BasePresenter;
 import com.cly.minevideoapplication.BaseView;
@@ -18,14 +18,17 @@ public interface VideoListContract {
         void setProgressState(boolean isShow);
 
         //设置数据
-        void setDatas(List<AVBean.DataBean> list);
+        void loadDatas(List<AVBean> list);
+
+        //数据加载失败
+        void loadError(String message);
 
     }
 
     interface Presenter extends BasePresenter {
 
         //获取列表
-        AVBean getList(String page);
+        void getList(String page);
 
     }
 }
