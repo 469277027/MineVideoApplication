@@ -53,13 +53,14 @@ public class VideoListAdapter extends RecyclerView.Adapter<VideoListAdapter.View
     class ViewHolder extends RecyclerView.ViewHolder {
 
         private ImageView pic;
-        private TextView name, time;
+        private TextView name, time, space;
 
         public ViewHolder(View itemView) {
             super(itemView);
             pic = ((ImageView) itemView.findViewById(R.id.iv_img));
             name = ((TextView) itemView.findViewById(R.id.tv_name));
             time = ((TextView) itemView.findViewById(R.id.tv_time));
+            space = ((TextView) itemView.findViewById(R.id.tv_space));
         }
 
         public void loadDatas(int position) {
@@ -70,6 +71,7 @@ public class VideoListAdapter extends RecyclerView.Adapter<VideoListAdapter.View
 
             name.setText(bean.getName());
             time.setText(bean.getTime());
+            space.setText(String.valueOf(bean.getSpace()) + "M");
         }
     }
 }

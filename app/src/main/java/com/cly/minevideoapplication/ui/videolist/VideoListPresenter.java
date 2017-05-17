@@ -42,7 +42,7 @@ public class VideoListPresenter implements VideoListContract.Presenter {
 
     @Override
     public void subscribe() {
-        getList("0");
+        getList("1");
     }
 
     @Override

@@ -15,8 +15,8 @@ import retrofit2.http.Query;
 
 public interface DataService {
 
-    @GET("first")
-    Observable<HttpResult<List<AVBean>>> getAVList(@Query("page") String page);
+    @GET("list")
+    Observable<HttpPageResult<List<AVBean>>> getAVList(@Query("page") String page);
 
 
 

@@ -6,4 +6,5 @@
 
     <string name="name">名字</string>
     <string name="time">时长</string>
+    <string name="space">大小</string>
 </resources>

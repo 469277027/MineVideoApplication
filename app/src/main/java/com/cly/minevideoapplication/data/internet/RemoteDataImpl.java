@@ -3,6 +3,7 @@ package com.cly.minevideoapplication.data.internet;
 import com.cly.minevideoapplication.data.DataSource;
 import com.cly.minevideoapplication.data.bean.AVBean;
 import com.cly.minevideoapplication.internet.HttpMethods;
+import com.cly.minevideoapplication.internet.HttpPageResult;
 import com.cly.minevideoapplication.internet.HttpResult;
 
 import java.util.List;
@@ -24,7 +25,7 @@ public class RemoteDataImpl implements DataSource {
 
 
     @Override
-    public Observable<HttpResult<List<AVBean>>> getAVBeanList(String page) {
+    public Observable<HttpPageResult<List<AVBean>>> getAVBeanList(String page) {
         return HttpMethods.getInstance().getVideoList(page);
     }
 }

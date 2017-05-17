@@ -24,7 +24,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class HttpMethods {
 
-    public static final String BASE_URL = "http://192.168.1.103:8080/test/";
+    public static final String BASE_URL = "http://192.168.1.103:8080/video/";
 
     private static final int DEFAULT_TIMEOUT = 5;
     private static final String TAG = "HttpMethods";
@@ -77,7 +77,7 @@ public class HttpMethods {
     }
 
     //获取视频列表
-    public Observable<HttpResult<List<AVBean>>> getVideoList(String page) {
+    public Observable<HttpPageResult<List<AVBean>>> getVideoList(String page) {
         return dataService.getAVList(page);
     }
 
