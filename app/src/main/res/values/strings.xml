@@ -7,4 +7,23 @@
     <string name="name">名字</string>
     <string name="time">时长</string>
     <string name="space">大小</string>
+
+    <string name="load_error">数据加载失败，请检查网络</string>
+
+    <!-- 第一组 -->
+    <string name="movie">电影</string>
+    <string name="music">MV</string>
+    <string name="tv_play">电视剧</string>
+    <string name="local">本地视频</string>
+
+    <!-- 第二组 -->
+    <string name="collection">收藏</string>
+    <string name="guess_you_like">猜你喜欢</string>
+    <string name="history">历史记录</string>
+
+    <!-- 第三组 -->
+    <string name="update">上传视频</string>
+    <string name="settings">设置</string>
+
+
 </resources>

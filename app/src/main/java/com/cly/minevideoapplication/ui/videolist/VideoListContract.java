@@ -23,6 +23,7 @@ public interface VideoListContract {
         //数据加载失败
         void loadError(String message);
 
+
     }
 
     interface Presenter extends BasePresenter {

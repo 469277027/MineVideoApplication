@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_movie"
+            android:icon="@mipmap/ic_video_call_black_24dp"
+            android:title="@string/movie" />
+        <item
+            android:id="@+id/nav_mv"
+            android:icon="@mipmap/ic_video_library_black_24dp"
+            android:title="@string/music" />
+        <item
+            android:id="@+id/nav_tv_play"
+            android:icon="@mipmap/ic_video_label_black_24dp"
+            android:title="@string/tv_play" />
+        <item
+            android:id="@+id/nav_local"
+            android:icon="@mipmap/ic_get_app_black_24dp"
+            android:title="@string/local" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_collection"
+            android:icon="@mipmap/ic_favorite_black_24dp"
+            android:title="@string/collection" />
+        <item
+            android:id="@+id/nav_guess_you_like"
+            android:icon="@mipmap/ic_insert_emoticon_black_24dp"
+            android:title="@string/guess_you_like" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@mipmap/ic_history_black_24dp"
+            android:title="@string/history" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_update"
+            android:icon="@mipmap/ic_update_black_24dp"
+            android:title="@string/update" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@mipmap/ic_settings_black_24dp"
+            android:title="@string/settings" />
+    </group>
+</menu>

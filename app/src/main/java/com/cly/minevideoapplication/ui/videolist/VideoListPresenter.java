@@ -72,6 +72,7 @@ public class VideoListPresenter implements VideoListContract.Presenter {
                     @Override
                     public void onError(Throwable e) {
                         e.printStackTrace();
+                        view.loadError("");
                     }
 
                     @Override

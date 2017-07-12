@@ -24,7 +24,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class HttpMethods {
 
-    public static final String BASE_URL = "http://192.168.1.103:8080/video/";
+    public static final String BASE_URL = "http://192.168.1.104:8080/video/";
 
     private static final int DEFAULT_TIMEOUT = 5;
     private static final String TAG = "HttpMethods";
