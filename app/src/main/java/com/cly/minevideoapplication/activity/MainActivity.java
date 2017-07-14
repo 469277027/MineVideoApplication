@@ -55,8 +55,15 @@ public class MainActivity extends BaseActivity {
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                item.setEnabled(true);
+                item.setChecked(!item.isChecked());
                 drawerLayout.closeDrawers();
+
+                switch (item.getItemId()) {
+                    case R.id.nav_movie:
+
+                        break;
+                }
+
                 return false;
             }
         });

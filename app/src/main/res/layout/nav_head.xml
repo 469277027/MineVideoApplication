@@ -3,7 +3,7 @@
     xmlns:fresco="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/md_grey_200"
+    android:background="@color/md_brown_500"
     android:divider="@drawable/md_line"
     android:orientation="vertical"
     android:showDividers="end">
@@ -27,7 +27,7 @@
         android:layout_marginStart="16dp"
         android:gravity="center_vertical"
         android:text="@string/name"
-        android:textColor="@color/md_grey_500" />
+        android:textColor="@color/md_white_1000" />
 
 
 </LinearLayout>
