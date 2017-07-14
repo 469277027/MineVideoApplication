@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="head_long_side">72dp</dimen>
+    <dimen name="item_height">48dp</dimen>
+
+    <!-- 字体-->
+    <dimen name="nav_name">56sp</dimen>
+
+</resources>

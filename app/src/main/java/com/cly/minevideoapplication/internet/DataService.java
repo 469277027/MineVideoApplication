@@ -19,6 +19,4 @@ public interface DataService {
     Observable<HttpPageResult<List<AVBean>>> getAVList(@Query("page") String page);
 
 
-
-
 }
